@@ -7,11 +7,12 @@ bgcolor="lightblue"
 */
 
 body {
-    background-color:lightblue;
+    background-color:black;
 }
 
 footer {
     background-color:mediumorchid;
+    color: white;
 }
 
 header {
@@ -30,4 +31,18 @@ header {
 .whitebg {
     background-color: white;
     color: black;
+}
+
+body > table > tbody > tr {
+    background-color: black;
+    color: white;
+}
+
+/*body > table > tbody > tr > td:nth-child(2) > section > p {
+    background-color: black;
+    color: white;
+}*/
+
+ul, h2 {
+    color: white;
 }
